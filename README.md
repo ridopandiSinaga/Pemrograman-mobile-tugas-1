@@ -7,9 +7,7 @@
 
 Demo:
 
-<video width="700" height="700" controls>
-  <source src="https://github.com/ridopandiSinaga/ridopandiSinaga.github.io/assets/89272004/1dc22a33-4d44-4505-affa-a74c4dab0334" type="video/mp4">
-</video>
+https://github.com/ridopandiSinaga/ridopandiSinaga.github.io/assets/89272004/1dc22a33-4d44-4505-affa-a74c4dab0334
 
 Tampilan home:
 
