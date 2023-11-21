@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Tugas 1</string>
+    <string name="email1">Nadiasofia632@gmail.com</string>
+    <string name="angkatan1">2021</string>
+    <string name="fakultas1">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi1">Teknologi Informasi</string>
+    <string name="sem_terdaftar1">1</string>
+    <string name="status1">Aktif</string>
+
+    <string name="email2">donny.adithyaciok@gmail.com</string>
+    <string name="angkatan2">2021</string>
+    <string name="fakultas2">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi2">Teknologi Informasi</string>
+    <string name="sem_terdaftar2">1</string>
+    <string name="status2">Aktif</string>
+
+    <string name="email3">ceciliapramuditha94@gmail.com</string>
+    <string name="angkatan3">2021</string>
+    <string name="fakultas3">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi3">Teknologi Informasi</string>
+    <string name="sem_terdaftar3">1</string>
+    <string name="status3">Aktif</string>
+
+    <string name="email4">adeflower04@gmail.com</string>
+    <string name="angkatan4">2021</string>
+    <string name="fakultas4">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi4">Teknologi Informasi</string>
+    <string name="sem_terdaftar4">1</string>
+    <string name="status4">Aktif</string>
+
+    <string name="email5">rahmahmutia264@gmail.com</string>
+    <string name="angkatan5">2021</string>
+    <string name="fakultas5">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi5">Teknologi Informasi</string>
+    <string name="sem_terdaftar5">1</string>
+    <string name="status5">Aktif</string>
+
+    <string name="email6">Tugas 1</string>
+    <string name="angkatan6">2021</string>
+    <string name="fakultas6">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi6">Teknologi Informasi</string>
+    <string name="sem_terdaftar6">1</string>
+    <string name="status6">Aktif</string>
+
+    <string name="email7">Tugas 1</string>
+    <string name="angkatan7">2021</string>
+    <string name="fakultas7">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi7">Teknologi Informasi</string>
+    <string name="sem_terdaftar7">1</string>
+    <string name="status7">Aktif</string>
+
+    <string name="email8">Tugas 1</string>
+    <string name="angkatan8">2021</string>
+    <string name="fakultas8">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi8">Teknologi Informasi</string>
+    <string name="sem_terdaftar8">1</string>
+    <string name="status8">Aktif</string>
+
+    <string name="email9">Tugas 1</string>
+    <string name="angkatan9">2021</string>
+    <string name="fakultas9">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi9">Teknologi Informasi</string>
+    <string name="sem_terdaftar9">1</string>
+    <string name="status9">Aktif</string>
+
+    <string name="email10">Tugas 1</string>
+    <string name="angkatan10">2021</string>
+    <string name="fakultas10">ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</string>
+    <string name="program_studi10">Teknologi Informasi</string>
+    <string name="sem_terdaftar10">1</string>
+    <string name="status10">Aktif</string>
+
+
+</resources>
