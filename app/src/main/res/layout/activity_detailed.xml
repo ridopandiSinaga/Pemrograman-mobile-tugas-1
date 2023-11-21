@@ -1,187 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".DetailedActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/detailName"
-        android:layout_marginTop="14dp"
-        android:text="Details Data"
-        android:textSize="24sp"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
+        android:orientation="vertical"
+        tools:context=".DetailedActivity">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="380dp"
-        android:layout_height="200dp"
-        android:id="@+id/cardImage"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Details Data"
+            android:textSize="24sp"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
 
-        <ImageView
-            android:layout_width="160dp"
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
             android:layout_height="200dp"
-            android:id="@+id/detailImage"
+            android:id="@+id/cardImage"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
-            android:src="@drawable/_211402005"
-            android:scaleType="centerCrop"
-            android:adjustViewBounds="true"/>
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
 
-    </androidx.cardview.widget.CardView>
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:id="@+id/detailImage"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/_211402005"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nama:"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:textSize="18sp"/>
+        </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="nama"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailNama"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NIM:"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nama"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailName"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/nim"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailNim"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nim"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailNim"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/email1"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailEmail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Angkatan:"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email1"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailEmail"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="angkatan"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailAngkatan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angkatan:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fakultas:"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="angkatan"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailAngkatan"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="fakultas"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailFakultas"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Program studi:"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fakultas"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailFakultas"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="programstudi"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailProgramstudi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Program studi:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Semester terdaftar:"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="programstudi"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailProgramstudi"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="semesterterdaftar"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailSemester"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester terdaftar:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Status:"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="semesterterdaftar"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailSemester"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="status"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:id="@+id/detailStatus"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailStatus"/>
+
+    </LinearLayout>
+</ScrollView>
